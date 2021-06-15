@@ -1,0 +1,148 @@
+body, ul {
+  margin: 0;
+  padding: 0; }
+
+a {
+  text-decoration: none; }
+
+a:hover {
+  text-decoration: none; }
+
+ul {
+  list-style: none; }
+
+.header {
+  width: 100%;
+  height: 2rem; }
+
+.main {
+  margin-top: 2rem;
+  width: 100%;
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  justify-content: center; }
+
+.block_textarea, .block_hre {
+  width: 50%;
+  margin: auto; }
+
+.block_header {
+  height: 40px;
+  line-height: 40px;
+  display: flex;
+  justify-content: space-between; }
+
+.block_header .item {
+  display: flex; }
+
+.icon_mic {
+  margin-left: 10px; }
+
+.icon_mic, .icon_heard, .icon_pause, .icon_playing {
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  cursor: pointer;
+  background: #e1dbdb;
+  border-radius: 4px; }
+
+.text_zone,.text_zone_hre {
+  min-width: 100%;
+  max-width: 100%;
+  border: 1px solid #00c600 !important;
+  border-radius: 5px;
+  outline: none;
+  padding: .5rem;
+  font-size: 20px;
+  color: #6a6aff;
+  margin-bottom: 2rem;
+  background: #ebeaea;
+}
+.text_zone:hover, .text_zone:active, .text_zone:focus, .text_zone_hre:focus{
+  outline: none !important;
+  border: 1px solid #00c600 !important;
+  box-shadow: none !important;
+}
+select {
+  outline: none; }
+
+#gender {
+  padding: 0;
+  height: 30px;
+  line-height: 30px;
+  border: 1px solid #00c600;
+  border-radius: 5px; }
+
+#lang_mic {
+  height: 30px;
+  line-height: 30px;
+  border: 1px solid #00c600;
+  border-radius: 5px;
+  padding: 0; }
+
+.icon_heard, .icon_pause, .icon_playing {
+  margin-left: 10px; }
+
+.icon_pause .isPause {
+  display: block; }
+
+.icon_pause .isPlay {
+  display: none; }
+
+.icon_playing .isPause {
+  display: none; }
+
+.icon_playing .isPlay {
+  display: block; }
+
+#inputSearch {
+  width: 50%;
+  margin: auto;
+  padding: 10px 10px;
+  border-radius: 7px;
+  border: none;
+  outline: none;
+  box-shadow:  0 0 4px gray;
+}
+#inputSearch:hover, #inputSearch:focus, #inputSearch:active {
+  outline: none;
+}
+.block_search{
+  margin-bottom: 2rem;
+}
+.block_search ul{
+  display: none;
+  z-index: 2;
+  width: 50%;
+  margin: auto;
+  border-radius: 0 0 7px 7px;
+  padding-top: 5px; 
+  padding-bottom: 10px;
+  box-shadow:  0 5px 12px gray;
+}
+.liResult{
+  text-align: left;
+  padding: 5px 10px;
+  cursor: pointer;
+  font-weight: 500;
+  color: #6b6b6b;
+}
+.liResult:hover{
+  background: #ced4da;
+}
+.btn_control{
+  width: 100%;
+  text-align: center;
+}
+.conver{
+  margin-bottom: 10px;
+}
+.conver span{
+  font-weight: 600;
+  margin: 0 10px;
+  color: gray;
+}
+.two-way-arrow{
+  cursor: pointer;
+}
