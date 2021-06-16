@@ -57,7 +57,7 @@ ul {
   font-size: 20px;
   color: #6a6aff;
   margin-bottom: 2rem;
-  background: #ebeaea;
+/*  background: #ebeaea;*/
 }
 .text_zone:hover, .text_zone:active, .text_zone:focus, .text_zone_hre:focus{
   outline: none !important;

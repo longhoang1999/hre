@@ -20,7 +20,7 @@
         </ul>
     </div>
     <div class="block_hre">
-        <textarea class="text_zone_hre" placeholder="Tiếng Hre" readonly="true"></textarea>
+        <textarea class="text_zone_hre" placeholder="Tiếng Hre"></textarea>
     </div>
     <div class="block_textarea">
         <div class="block_header">
@@ -48,7 +48,7 @@
                 <audio src="" id="audio" hidden=""></audio>
             </div>
         </div>
-        <textarea class="text_zone" placeholder="Tiếng Việt" readonly="true"></textarea>
+        <textarea class="text_zone" placeholder="Tiếng Việt"></textarea>
     </div>
 </div>
 @stop
